@@ -1,0 +1,28 @@
+{
+  "profile": "org.emsenn.evm.sovereign-enterprise-account.v3",
+  "enterprise": {
+    "nodeId": "resolving-an-identifier",
+    "urn": "urn:ame:resolving-an-identifier",
+    "enterpriseId": "0xe64369173ca5976a7b84355877a36a9f3ebd898d8de2a72d41911aa16c661749"
+  },
+  "chain": {
+    "chainId": 31337,
+    "caip2": "eip155:31337"
+  },
+  "account": {
+    "address": "0x9e293241d2896d5a80a0f76d5e85a0cfb4ffcf83",
+    "caip10": "eip155:31337:0x9e293241d2896d5a80a0f76d5e85a0cfb4ffcf83"
+  },
+  "factory": {
+    "address": "0x7bf3cf1176c4a037d3ea2a5ff3d480359ac65ecd",
+    "userSalt": "0xd4b5690922517ded4ab0f8fe9debb58ccb91215f8821faaad710f6784678aaf0"
+  },
+  "policy": {
+    "signer": "0x9a092ed8f60aa8c23e91f47aec8617e98996ae04",
+    "custody": "settlement-private"
+  },
+  "deployment": {
+    "transaction": "0x52972f7e826925d1a9292a6f99ee1732e986172889e177a9bd645538dbc7aab2",
+    "block": 1467
+  }
+}

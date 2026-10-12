@@ -1,0 +1,20 @@
+{
+  "name": "@561-group/resolving-an-identifier",
+  "version": "0.2.1",
+  "type": "module",
+  "description": "Headverb service ME that resolves identifiers from a customer node's own standpoint.",
+  "exports": {
+    ".": "./src/resolve-an-identifier.js",
+    "./src/resolve-an-identifier.js": "./src/resolve-an-identifier.js"
+  },
+  "bin": {
+    "resolve-an-identifier": "./src/resolve-an-identifier.js"
+  },
+  "dependencies": {
+    "@red-cup-engineering/eavt-services-section": "workspace:*"
+  },
+  "scripts": {
+    "check": "node --check src/resolve-an-identifier.js",
+    "test": "node --test test/*.test.mjs"
+  }
+}
