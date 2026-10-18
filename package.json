@@ -3,6 +3,11 @@
   "version": "0.2.1",
   "type": "module",
   "description": "Headverb service ME that resolves identifiers from a customer node's own standpoint.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/red-cup-engineering/computer-systems-engineering-services-section.git",
+    "directory": "services/agent-computer-system-engineering-services-section/services/task-management-computer-system-engineering-services-section/services/identifier-resolution-services-section/services/resolving-an-identifier"
+  },
   "exports": {
     ".": "./src/resolve-an-identifier.js",
     "./src/resolve-an-identifier.js": "./src/resolve-an-identifier.js"
