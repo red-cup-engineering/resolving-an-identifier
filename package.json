@@ -20,5 +20,10 @@
   "scripts": {
     "check": "node --check src/resolve-an-identifier.js",
     "test": "node --test test/*.test.mjs"
+  },
+  "license": "MIT",
+  "funding": {
+    "type": "individual",
+    "url": "https://github.com/561-group/.github/blob/main/TIPS.md"
   }
 }
