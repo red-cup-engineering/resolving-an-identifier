@@ -248,7 +248,7 @@ export function seatForms(pool, slug) {
 // The settled convention retires bare data/<kind> in favor of the data tiers —
 // data/logs, data/ledgers, data/state, data/records — with each kind seating
 // under one of them, in the tier's own `<kind>-<suffix>` directory (the
-// eavt-services-section address law names it; this table only names the tier). A kind not yet named here (e.g.
+// eavt-engineering-services-section address law names it; this table only names the tier). A kind not yet named here (e.g.
 // movements, books) has no settled bucket and is left bare until an anomaly
 // or decision names where it seats — never silently guessed.
 const DATA_KIND_BUCKETS = {
