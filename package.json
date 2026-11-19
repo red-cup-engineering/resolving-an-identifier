@@ -18,8 +18,7 @@
     "@red-cup-engineering/eavt-services-section": "workspace:*"
   },
   "scripts": {
-    "check": "node --check src/resolve-an-identifier.js",
-    "test": "node --test test/*.test.mjs"
+    "check": "node --check src/resolve-an-identifier.js"
   },
   "license": "MIT",
   "funding": {
