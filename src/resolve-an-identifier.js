@@ -271,8 +271,8 @@ export function dataDir(unit, kind) {
 // discipline project-pools-to-eavt.js's own header states for time. Checked
 // in the order a record is most likely to carry it.
 export function recordDate(record) {
-  const provenance = record?.["x-provenance"]?.["recorded-on"];
-  if (typeof provenance === "string") return provenance;
+  const origin = record?.["x-provenance"]?.["recorded-on"];
+  if (typeof origin === "string") return origin;
   const direct = record?.["recorded-on"];
   if (typeof direct === "string") return direct;
   const at = record?.at;
