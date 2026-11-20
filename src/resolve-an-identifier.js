@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import { argValue } from "@red-cup-engineering/parse-javascript-argv-service";
 /**
  * @skill resolving-an-identifier
  * @verb-phrase resolving an identifier
@@ -471,10 +472,7 @@ export function resolveIdentifier(ref, opts = {}) {
 }
 
 // ── CLI ──────────────────────────────────────────────────────────────────
-function argValue(flag) {
-  const i = process.argv.indexOf(flag);
-  return i !== -1 ? process.argv[i + 1] : undefined;
-}
+
 
 function out(value, code = 0) {
   process.stdout.write(JSON.stringify(value, null, 2) + "\n");
