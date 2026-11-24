@@ -1,0 +1,4 @@
+<urn:ame:resolving-an-identifier> <urn:emsenn:evm:retired-controller-artifact> <ni:///sha-256;G6-NQaHY6I03MhCaUsRK5x4KpOwhCLRO5fZaRU4YAIo> <urn:ame:resolving-an-identifier:controller-custody-cutover:eip155-31337> .
+<ni:///sha-256;G6-NQaHY6I03MhCaUsRK5x4KpOwhCLRO5fZaRU4YAIo> <urn:emsenn:evm:retired-path> "data/evm/controller-eip155-31337.env" <urn:ame:resolving-an-identifier:controller-custody-cutover:eip155-31337> .
+<urn:ame:resolving-an-identifier> <urn:emsenn:evm:controller-keystore-format> "Ethereum Secret Storage v3" <urn:ame:resolving-an-identifier:controller-custody-cutover:eip155-31337> .
+<urn:ame:resolving-an-identifier> <urn:emsenn:evm:controller-chain> <eip155:31337> <urn:ame:resolving-an-identifier:controller-custody-cutover:eip155-31337> .
